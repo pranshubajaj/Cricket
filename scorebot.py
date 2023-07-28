@@ -108,23 +108,7 @@ while(1):
 
 
 
-# batter = False
-# message = ''
-# det, scores = overview()
-# message += scores
-# table = fetch_details('https://www.cricbuzz.com' + det)
-# for row in table:
-#     if(row[0]=='Batter' or row[0]=='Bowler'):
-#         print(colored("{:<24} {:<8} {:<8} {:<8} {:<8} {:<8}".format(row[0], row[1], row[2], row[3], row[4], row[5]), 'cyan', attrs=['bold']))
-#         batter = not batter
-#     else:
-#         print(colored("{:<24} {:<8} {:<8} {:<8} {:<8} {:<8}".format(row[0], row[1], row[2], row[3], row[4], row[5]), 'white'))
-#         if(batter):
-#             msg = '\n'+row[0]+':  '+row[1]+'('+row[2]+')'+'  '+'S.R. '+row[5]
-#             message += msg
-#         else:
-#             msg = '\n'+row[0]+':  '+row[1]+'-'+row[2]+'-'+row[3]+'-'+row[4]
-#             message += msg
+
 
 
 
